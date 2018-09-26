@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+
+ <link rel="stylesheet" type="text/css" href="registor.css">
+ 
+	<title>Sign Up</title>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+</head>
+<body>
+    <header>
+            <img src="local.jpg" id="logo">
+            
+	  <h1><b><i>Local News</i></b></h1>
+       
+    </header>
+   <section class="new">
+           <h3>NEW REGISTRATION</h3>
+           <form action="registor.php" method="post" class="registor" onsubmit="return validation()"  >
+
+
+           <label>First Name :</label>
+                 <input type="text"  autocomplete="off" autofocus  id="fName" onblur="uppercase('fName'); reset(this);" onfocus="change(this)"> 
+               <span id="fname"></span>  
+			   
+            <label>Last Name :</label>
+                 <input type="text" autocomplete="off" id="lName" onblur="uppercase('lName'); reset(this);" onfocus="change(this)">
+                 
+              <label>Gender :</label>
+                 <select>
+                     <option value="Male" >Male</option>
+                     <option value="Female">Female</option>
+                     <option value="other">other</option>
+                 </select>
+                 <span id="gender"></span>
+
+            <label>Date Of Birth:</label>
+                  <input type="date" id="Dob" onblur="Age()" autocomplete="off">
+                  <span id="dob"></span>
+
+             <label>Age :</label>
+                 <input type="number" min="1" max="100" autocomplete="off" id="age" >
+		
+         <label>Address:</label>
+		 <input type="textarea" autocomplete="off">
+		 
+           <label>Phone No :</label>
+             <input type="tel" id="phone" onblur="reset(this)" onfocus="change(this)">
+             <span id="phone"></span>
+
+          <label>Email :</label>
+              <input type="email" id="Email" autocomplete="off" onblur="reset(this)" onfocus="change(this)">
+              <span id="email"></span>
+
+          <label>Username :</label>
+             <input type="text" autocomplete="off" onblur="reset(this)" onfocus="change(this)">
+             
+
+         <label>Password:</label>
+            <input type="password" autocomplete="off" id="Password" onblur="reset(this)" onfocus="change(this)">
+        
+            <label>Conform Password:</label>
+            <input type="password" autocomplete="off" id="CPassword" onblur="reset(this)" onfocus="change(this)">
+         
+           <label>Profile-Image :</label>
+           <input type="file" >
+    
+           <input type="submit" value="submit" id="submit" >
+           <input type="reset" value="reset" id="reset">
+         
+           
+            
+
+          </form>
+   </section>  
+
+
+   <footer>
+    <p>@ all rights reserved</p>
+    <ul>
+   <li><a href="copyright.html">copyright policy</li>
+      <li><a href="privacy.html">privacy.html</a></li>
+ <li><a href="terms.html">terms &conditions</a></li>
+    </ul>
+</footer>
+
+<script src="register.js"></script>
+
+
+</body>

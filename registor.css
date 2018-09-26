@@ -1,0 +1,160 @@
+header 
+{
+	text-align: center;
+	background-color:white;
+	color:orange;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+header h1
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#logo
+{
+  height:100px;
+  width:100px;
+}
+#vesit
+{
+	width: 300px;
+	height:150px;
+	float:right;
+}
+
+header {
+    position: relative;
+    border: 3px solid #73AD21;
+} 
+
+.new{
+position: absolute;
+    top:230px;
+     left: 350px;
+    width:600px;
+	height: 775px;
+	background-color: rgba(124, 0, 128, 0.411);
+}
+
+section h3{
+	text-align:center;
+	color:blue;
+	font: italic;
+}
+
+footer{
+	position: absolute;
+    top:1025px;
+     left: 0;
+    right:0;
+	background-color: rgba(0, 128, 128, 0.973);
+	text-align: center;
+
+}
+
+
+nav
+{
+	margin:0px;
+}
+nav ul 
+{
+	list-style: none;
+	display:inline;
+    float:right;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0;
+	margin:0;
+ }
+
+ nav li
+ {
+ 	float:left;
+ }
+ nav li a
+ {
+ 	text-decoration:none;
+ 	display:block;
+ 	color:grey;
+ 	padding:14px 16px;
+ 	margin:0px;
+ }
+ nav  li a:hover
+ {
+ 	background-color:brown;
+ 	padding:14px 16px;
+ }
+ 
+body
+ {
+ 	background-color: antiquewhite;
+    background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+	text-align: right;
+	padding: 12px 12px 12px 0;
+}
+input[type=text],input[type=date],input[type=number],input[type=password]
+,input[type=email],input[type=tel],input[type=file],select {
+  display: inline-block;
+  float: left;
+  padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+input[type=textarea]{
+	rows:5px;
+	cols:5px;
+	  display: inline-block;
+  float: left;
+  padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h6
+{
+ display:inline-block;
+ float:left;
+ padding: 2px 1em 0 0;
+}
+input[type=radio]
+{
+	display:inline-block;
+ float:left;
+	margin: 2px 0 0 2px;
+}
+
+input[type=file]
+{
+	cursor: pointer;
+}
+input[type=submit]:hover,input[type=reset]:hover {
+    background-color: #45a049;
+}
+input[type=submit],input[type=reset]
+{
+	margin-left:50%;
+	width:200px;
+	border:none;
+	color:white;
+	background-color:#4CAF50;
+	height:40px;
+	cursor:pointer;
+	font-size:16px;
+	margin-top:20px;
+}
+input[type=reset]
+{
+
+	float:left;
+}
