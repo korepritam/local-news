@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Recent News</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="list.css">
+        <script>
+        
+        function newlist(){
+        	
+        		$("#aid").append("<h4>The Maharashtra Anti-Terrorism Squad  has arrested seven suspected Maoists from Kalyan in Thane district.</h4>");
+                $("#aid").mouseleave(function(){
+                $("h4").hide("fast");
+                 });
+            }
+        function list2(){		$("#jyoti").append("<h4>According to the complaint, one of the sisters aged 13 was along with her elder sister (16), came to a hotel where their mother was working, to meet her for some work</h4>");
+        $("#jyoti").mouseleave(function(){
+                $("h4").hide("fast");
+            });
+    }
+           function list3(){    
+        		$("#geeta").append("<h4>As per reports, Hindu Mahasabha is constructing the memorial of Godse, the assassin of Mahatma Gandhi, at Saparde village, 6 kms from Kalyan and land has been acquired for the purpose.</h4>");
+             
+        	$("#geeta").mouseleave(function(){
+        		$("h4").hide("fast");
+        	});
+       }
+      
+        	
+       
+        </script>
+     
+
+
+	</head>
+	<body>
+
+	<h1>Recent News</h1>
+		<li>
+			<ul id="list">
+			<h3 id="aid" onmouseenter="newlist()">Moists arrested in Kalyan <button onclick="window.location.href='/Web%20Tools%20mini%20project(Pritam)/page1.html'">See News</button></h3>
+			  
+			</ul>
+			<ul id="list">
+			<h3 id="jyoti" onmouseenter="list2()">Auto driver, molest two sisters<button onclick="window.location.href='/page2'">See News</button></h3>
+			</ul>
+			<ul id="list">
+			<h3 id="geeta" onmouseenter="list3()">Will take steps to stop construction of Godse memorial<button onclick="window.location.href='/page3'">See News</button></h3>
+			
+			</ul>
+		</li>
+	</body>	
+</html>

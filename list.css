@@ -1,0 +1,31 @@
+	body{
+		background-color:   #faf3f4  ;
+	}
+     h1{
+     	text-align:center;
+     	color:blue;
+     }
+     h3
+     {
+     	padding:20px;
+     	background-color:  #81f1f8 ;
+     	margin-left: 100px;
+     	margin-right: 100px;
+        text-align: center;
+     }
+     h4
+     {
+     	padding:20px;
+     	margin-left: 100px;
+     	margin-right: 100px;
+     	color:white;
+     	background-color:  #8a81f8 
+     }
+     button
+     {
+        float:right;
+        padding:7px;
+        color:white;
+        text-align:right;
+        background-color: #ff7733 ;
+     }
